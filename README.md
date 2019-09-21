@@ -1,4 +1,4 @@
-# Teams
+# Permissions
 
 ![npm license](https://img.shields.io/npm/l/@enso-ui/permissions.svg) 
 ![npm download](https://img.shields.io/npm/dm/@enso-ui/permissions.svg) 
