@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/permissions",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Basic permissions package",
   "main": "src/bulma/pages/permissions/Index.vue",
   "scripts": {
