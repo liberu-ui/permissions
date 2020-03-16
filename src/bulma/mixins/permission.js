@@ -14,7 +14,7 @@ export default {
                 return 'is-warning';
             case this.enums.permissionTypes.Delete:
                 return 'is-danger';
-            case this.enums.permissionTypes.Menu:
+            case this.enums.permissionTypes.Link:
                 return 'is-info';
             default:
                 return '';
