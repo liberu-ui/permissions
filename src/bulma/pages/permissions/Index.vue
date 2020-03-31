@@ -1,9 +1,9 @@
 <template>
     <enso-table class="box is-paddingless raises-on-hover"
         id="permissions">
-        <template v-slot:type="{ row }">
+        <template v-slot:type="{ column, row }">
             <span class="tag is-table-tag"
-                :class="cssClass(row)">
+                :class="cssClass(column.enum, row)">
                 {{ row.type }}
             </span>
         </template>
@@ -12,13 +12,18 @@
 
 <script>
 import { EnsoTable } from '@enso-ui/tables/bulma';
-import permission from '../../mixins/permission';
+import cssClass from '../../modules/permission';
 
 export default {
     name: 'Index',
 
     components: { EnsoTable },
 
-    mixins: [permission],
+    methods: {
+        cssClass(columnEnum, row) {
+            console.log(cssClass(columnEnum, row));
+            return cssClass(columnEnum, row);
+        },
+    },
 };
 </script>
