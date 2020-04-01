@@ -21,7 +21,6 @@ export default {
 
     methods: {
         cssClass(columnEnum, row) {
-            console.log(cssClass(columnEnum, row));
             return cssClass(columnEnum, row);
         },
     },
