@@ -8,6 +8,8 @@ const cssClass = (permissionEnum, { type }) => {
         return 'is-danger';
     case permissionEnum.Link:
         return 'is-info';
+    case permissionEnum.Menu:
+        return 'is-primary';
     default:
         return '';
     }
