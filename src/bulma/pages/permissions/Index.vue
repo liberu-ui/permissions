@@ -1,7 +1,7 @@
 <template>
     <enso-table class="box is-paddingless raises-on-hover"
         id="permissions">
-        <template v-slot:type="{ column, row }">
+        <template #:type="{ column, row }">
             <span class="tag is-table-tag"
                 :class="cssClass(column.enum, row)">
                 {{ row.type }}
