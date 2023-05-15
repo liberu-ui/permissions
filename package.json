@@ -1,5 +1,5 @@
 {
-  "name": "@cgdsoftware/permissions",
+  "name": "@liberu-ui/permissions",
   "version": "5.0.0",
   "description": "Basic permissions package",
   "main": "src/bulma/pages/permissions/Index.vue",
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/enso-ui/permissions#readme",
   "dependencies": {
-    "@cgdsoftware/forms": "^3.0",
-    "@cgdsoftware/tables": "^3.0",
-    "@cgdsoftware/ui": "^6.0",
+    "@liberu-ui/forms": "^3.0",
+    "@liberu-ui/tables": "^3.0",
+    "@liberu-ui/ui": "^6.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "vue": "^3.0"
