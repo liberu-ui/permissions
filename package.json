@@ -1,6 +1,6 @@
 {
   "name": "@liberu-ui/permissions",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "description": "Basic permissions package",
   "main": "src/bulma/pages/permissions/Index.vue",
   "scripts": {
