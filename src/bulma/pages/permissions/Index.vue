@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { EnsoTable } from '@enso-ui/tables/bulma';
+import { EnsoTable } from '@liberu-ui/tables/bulma';
 import cssClass from '../../modules/permission';
 
 export default {
